@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "4a0f5191-a707-404b-9e37-a6711475a264",
+		"_postman_id": "48ae2c1f-8f1e-4181-96b3-7c98311e9843",
 		"name": "petstore",
 		"description": "This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "18317683"
+		"_exporter_id": "37466904"
 	},
 	"item": [
 		{
@@ -21,7 +21,8 @@
 									"    pm.response.to.have.status(200);\r",
 									"});"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -65,7 +66,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "123",
+									"value": "3",
 									"description": "(Required) ID of pet to return"
 								}
 							]
@@ -79,9 +80,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: apikey",
 										"key": "api_key",
-										"value": "<API Key>"
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
 									}
 								],
 								"url": {
@@ -120,9 +121,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: apikey",
 										"key": "api_key",
-										"value": "<API Key>"
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
 									}
 								],
 								"url": {
@@ -161,9 +162,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: apikey",
 										"key": "api_key",
-										"value": "<API Key>"
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
 									}
 								],
 								"url": {
@@ -209,7 +210,8 @@
 									"    pm.response.to.have.status(200);\r",
 									"});"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -252,7 +254,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "1337",
+									"value": "3",
 									"description": "(Required) ID of pet that needs to be updated"
 								}
 							]
@@ -265,9 +267,9 @@
 								"method": "POST",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									}
 								],
 								"body": {
@@ -369,9 +371,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									}
 								],
 								"url": {
@@ -409,9 +411,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									}
 								],
 								"url": {
@@ -484,9 +486,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									}
 								],
 								"url": {
@@ -524,9 +526,9 @@
 								"method": "GET",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									}
 								],
 								"url": {
@@ -571,7 +573,8 @@
 									"    pm.response.to.have.status(200);\r",
 									"});"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -598,7 +601,7 @@
 							"variable": [
 								{
 									"key": "petId",
-									"value": "321",
+									"value": "3",
 									"description": "(Required) Pet id to delete"
 								}
 							]
@@ -611,9 +614,9 @@
 								"method": "DELETE",
 								"header": [
 									{
-										"description": "Added as a part of security scheme: oauth2",
 										"key": "Authorization",
-										"value": "<token>"
+										"value": "<token>",
+										"description": "Added as a part of security scheme: oauth2"
 									},
 									{
 										"key": "api_key",
