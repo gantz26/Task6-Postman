@@ -26,7 +26,7 @@ jobs:
         run: mkdir -p testResults
 
       - name: Run postman collection
-        run: newman run petstore.collection.json -r htmlextra --reporter-htmlextra-export testResults/report.html --reporter-htmlextra-darkTheme
+        run: newman run petstore.collection.json -r htmlextra --reporter-htmlextra-export testResults/report.html --reporter-htmlextra-darkTheme > testResults/runreport1.html
 
       - name: Deploy the report
         if: always()
