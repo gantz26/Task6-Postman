@@ -1,0 +1,102 @@
+products:
+  - id: 1
+    name: Tomato
+    price: 10
+    sku: 1232143543543
+    description: They are usually red, scarlet, or yellow, though green and purple
+      varieties do exist, and they vary in shape from almost spherical to oval
+      and elongate to pear-shaped.
+  - id: 2
+    name: Lettuce
+    price: 20
+    sku: 999921312423
+    description: Most lettuce varieties are eaten fresh and are commonly served as
+      the base of green salads
+  - id: 3
+    name: Apple
+    price: 30
+    sku: 999921312423312
+    description: awesome
+orders:
+  - id: 1
+    name: Order1
+    sku: 1232143543543
+  - id: 2
+    name: Order2
+    sku: 999921312423
+  - id: 3
+    name: Order3
+    sku: 999921312423312
+users:
+  - id: 1
+    firstName: Alice
+    lastName: Smith
+    email: alice.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: admin
+  - id: 2
+    firstName: Kimberly
+    lastName: Lehner
+    email: Robbie_Schinner32@hotmail.com
+    dateOfBirth: Wed Jun 05 2024 04:23:09 GMT+0300 (Восточная Европа, летнее время)
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: lord
+  - id: 3
+    firstName: Joe
+    lastName: Smith
+    email: joe.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 4
+    firstName: Vesta
+    lastName: Smith
+    email: vesta.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 5
+    firstName: Dax
+    lastName: Smith
+    email: dax.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 6
+    firstName: Naruto
+    lastName: Smith
+    email: naruto.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - id: 7
+    firstName: Saske
+    lastName: Smith
+    email: saske.smith@gmail.com
+    dateOfBirth: 1997-10-31
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: consumer
+  - firstName: Mitchel
+    lastName: Mayert
+    email: Dorcas.Hoeger@gmail.com
+    dateOfBirth: Wed Aug 14 2024 08:38:10 GMT+0300 (Восточная Европа, летнее время)
+    emailVerified: true
+    signUpDate: 2019-08-24
+    status: active
+    level: lord
+    id: 10
