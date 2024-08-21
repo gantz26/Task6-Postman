@@ -29,7 +29,7 @@ jobs:
         run: npm run tern-on-api &
 
       - name: Run postman collection
-        run: newman run store.collection.json -e test_env.json -r htmlextra --reporter-htmlextra-export testResults/index.html --reporter-htmlextra-darkTheme --verbose
+        run: newman run store.collection.json -e test_env.json -r cli,htmlextra --reporter-htmlextra-export testResults/index.html --reporter-htmlextra-darkTheme --verbose
 
       - name: Deploy the report
         if: always()
